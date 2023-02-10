@@ -1,0 +1,68 @@
+.appMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(to right, #4776e6, #8e54e9);
+}
+
+.appInput {
+  width: 60%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.appInput:focus {
+  width: 70%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 20%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #4776e6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background: #8e54e9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
