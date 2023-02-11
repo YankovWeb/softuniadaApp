@@ -5,7 +5,7 @@ const Error = () => {
     <div className={classes.error}>
       Error
       <h1 className={classes.h1}>404</h1>
-      <p className={classes.p}> WE LOST CONATION TO SKYNET</p>
+      <p className={classes.p}> WE LOST CONNECTION TO SKYNET</p>
     </div>
   );
 };

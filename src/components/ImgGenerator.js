@@ -42,7 +42,7 @@ const ImgGenerator = () => {
         <div className={classes.loader} />
       ) : (
         <button className={classes.button} onClick={generateImg}>
-          Generate Img
+          Generate
         </button>
       )}
       <input

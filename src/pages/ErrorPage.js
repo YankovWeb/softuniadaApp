@@ -1,13 +1,14 @@
-import {Outlet} from "react-router-dom";
 import Error from "../components/Error";
+import MainNav from "../components/MainNav";
+
 const ErrorPage = () => {
   //   const navigiation = useNavigation();
 
   return (
     <>
-      <Error />
+      <MainNav />
       <main>
-        <Outlet />
+        <Error />
       </main>
     </>
   );

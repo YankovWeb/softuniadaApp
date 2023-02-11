@@ -25,7 +25,7 @@ function MainNav() {
                 isActive ? classes.active : undefined
               }
             >
-              Image Generator
+              Generator
             </NavLink>
           </li>
           <li>
@@ -35,7 +35,7 @@ function MainNav() {
                 isActive ? classes.active : undefined
               }
             >
-              Chat With Ai
+              Chat
             </NavLink>
           </li>
         </ul>

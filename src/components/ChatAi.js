@@ -43,7 +43,7 @@ const ChatAi = () => {
 
   return (
     <div className={classes.container}>
-      <h1 className={classes.h1}>AI for JavaScript</h1>
+      <h1 className={classes.h1}>AI with specialization for Javascript</h1>
       <form className={classes.form} onSubmit={handleSubmit}>
         <input
           className={classes.input}
