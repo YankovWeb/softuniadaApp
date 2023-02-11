@@ -19,8 +19,8 @@ const ChatAi = () => {
 
     try {
       const response = await openai.createCompletion({
-        model: "code-davinci-002",
-        prompt: `You: ${input}\nJavaScript chatbot`,
+        model: "text-davinci-003",
+        prompt: `${input}`,
         temperature: 0.5,
         max_tokens: 60,
         top_p: 1.0,
@@ -43,7 +43,7 @@ const ChatAi = () => {
 
   return (
     <div className={classes.container}>
-      <h1 className={classes.h1}>AI with specialization for Javascript</h1>
+      <h1 className={classes.h1}>Ask me something</h1>
       <form className={classes.form} onSubmit={handleSubmit}>
         <input
           className={classes.input}
