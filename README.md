@@ -1,7 +1,8 @@
 # Getting Started: 
 
-!important the free credis expired at 24.4.2023 you will get HTTP error 429 on Request!
-!important You can still use your own Api Key from Open Ai.
+important the free credits expired at 24.4.2023 you will get HTTP error 429 on Request!
+
+important You can still use your own Api Key from Open Ai.
 
 Link https://aiapp-decf2.firebaseapp.com/
 
